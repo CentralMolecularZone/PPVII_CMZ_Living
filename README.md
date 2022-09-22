@@ -19,6 +19,7 @@ Jonny, Ash, Cara, Adam, Mattia, and Dan
 # The current (March 2022) version of the Review
 
 <object data="main.pdf" width="1000" height="1000"></object>
+[embeddoc url="main.pdf" download="all"]
 
 
 
