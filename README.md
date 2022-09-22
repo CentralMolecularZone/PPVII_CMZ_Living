@@ -16,10 +16,11 @@ At present, the original article authors have agreed to serve as editors of this
 
 Jonny, Ash, Cara, Adam, Mattia, and Dan
 
-# The current (March 2022) version of the Review
+# The current (Sept. 2022) version of the Review
 
+Download [here](https://github.com/CentralMolecularZone/PPVII_CMZ_Living/blob/main/main.pdf).
 <object data="main.pdf" width="1000" height="1000"></object>
-[embeddoc url="main.pdf" download="all"]
+
 
 
 
