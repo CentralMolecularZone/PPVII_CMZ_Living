@@ -1,7 +1,7 @@
-# Welcome to a living review of Star Formation in the Central Molecular Zone
+**Welcome to a living review of Star Formation in the Central Molecular Zone**
 
 ## About this review
-_"Star Formation in the Central Molecular Zone of the Milky Way"_ is a review article writen by Jonathan Henshaw, Ashley Barnes, Cara Battersby, Adam Ginsburg, Mattia Sormani, and Daniel Walker. This article was written as a review chapter for [Protostars and Planets VII](http://ppvii.org/) and first appeared on [arXiv in March 2022] (https://ui.adsabs.harvard.edu/abs/2022arXiv220311223H/abstract) and will be published as part of Protostars and Planets VII; Editors: Shu-ichiro Inutsuka, Yuri Aikawa, Takayuki Muto, Kengo Tomida, and Motohide Tamura in 2023.
+_"Star Formation in the Central Molecular Zone of the Milky Way"_ is a review article writen by [Jonathan Henshaw](https://www.jdhenshaw.com/), [Ashley Barnes](https://sites.google.com/view/ashleybarnesastro), [Cara Battersby](https://battersby.physics.uconn.edu/), [Adam Ginsburg](http://www.adamgginsburg.com/), [Mattia Sormani](https://www.ita.uni-heidelberg.de/~mattia/), and [Daniel Walker](https://www.daniellewiswalker.com/). This article was written as a review chapter for [Protostars and Planets VII](http://ppvii.org/) and first appeared on [arXiv in March 2022](https://ui.adsabs.harvard.edu/abs/2022arXiv220311223H/abstract) and will be published as part of Protostars and Planets VII; Editors: Shu-ichiro Inutsuka, Yuri Aikawa, Takayuki Muto, Kengo Tomida, and Motohide Tamura in 2023.
 
 
 ## How to suggest additions or other modifications to the living review
