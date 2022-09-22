@@ -18,7 +18,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Header 3
 
-<object data="main.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="main.pdf" width="1000" height="1000"></object>
 
 
 Welcome to the living review page for the "Star Formation in the Central Molecular Zone of the Milky Way" Protostars and Planets VII review. This article first appeared on arXiv on March 2022 here: https://ui.adsabs.harvard.edu/abs/2022arXiv220311223H/abstract and will be published as part of Protostars and Planets VII; Editors: Shu-ichiro Inutsuka, Yuri Aikawa, Takayuki Muto, Kengo Tomida, and Motohide Tamura.
