@@ -20,6 +20,9 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+# Build Settings
+theme: slate
+
 # Handling Reading
 safe                : false
 include             : [".htaccess"]
