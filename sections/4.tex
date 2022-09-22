@@ -1,0 +1,340 @@
+\section{Macro-evolution of the CMZ} 
+\label{sec:macroevolution}
+The gas inwardly migrating from large-scales towards the CMZ may meet a number of fates: it may contribute to the central mass reservoir, form stars, or may be expelled from the centre via an outflow \citep{Morris1996}.
+It is useful to think about these fates in the context of mass conservation in a cylindrical volume containing the CMZ, $R<200\, \pc$ and $|z|<100\, \pc$ \citep[e.g.][]{Crocker2012}:
+\begin{equation}
+    \dot{M}_\mathrm{IN} = {\rm SFR} +  \dot{M}_{\rm OUT} + \dot{M}_{\rm CMZ},
+\end{equation}
+where $\dot{M}_\mathrm{IN}$ is the mass inflow to the CMZ, SFR is the star formation rate, $\dot{M}_{\rm OUT}$ is the mass lost from the CMZ due to outflowing gas, and $\dot{M}_{\rm CMZ}$ is the rate of change of the total gas mass in the CMZ. Note that the rate of change of the central black hole hole mass is negligible compared to the other contributions ($\dot{M}_{\rm SgrA*}<10^{-8}\,\msun\,\yr^{-1}$, e.g.\ \citealt{Genzel2010}). Current estimates (quantified throughout this section) suggest $\dot{M}_\mathrm{IN}\simeq 0.8\,\msun\,\yr^{-1}$ and $\dot{M}_{\rm OUT}\gtrsim0.6\,\msun\,\yr^{-1}$. When combined with the present day SFR of $\sim$\,0.07\,\msunyr\ (\S\ref{subsec:SFR:context}), these values could imply that the gas mass in the CMZ is either in a quasi-steady state or presently increasing \citep{Crocker2012, Krumholz2015,Sormani2019b}, with potentially important implications for the time-variability of star formation (\S\ref{subsec:SFR:timeevolution}). We therefore begin the second half of the review by describing in detail the macro-evolution of the CMZ. 
+
+\subsection{Gas flow towards the nucleus}
+\label{sec:inwardmassflow}
+
+Interstellar matter is transported from the Galactic disc (Galactocentric radii $R>3~\kpc$) down to the very centre of the Milky Way in a sequence of steps. 
+
+\subsubsection{From the Galactic disc to the CMZ} \label{sec:barinflow}
+
+The Galactic bar transports gas from the Galactic disc at $R\gtrsim3~\kpc$ down to the outskirts of the CMZ. However, there are different theories as to what happens to the gas once it approaches this location. 
+
+One interpretation is that the Galactic bar drives gas inwards from $R\gtrsim3\kpc$ down to $R\sim$ several hundred pc, at which point it settles into a disc \citep{Krumholz2015, Krumholz2017}. 
+\citet[][]{Kruijssen2014a} argued that acoustic instabilities \citep{Montenegro1999} drive both turbulence and angular momentum transport in this disc, causing it to flow inwards and accumulate into a ring of material at $R\simeq 100\pc$. 
+However, \citet{Sormani2020c} used hydrodynamical simulations to show that the modes that are predicted to be acoustically unstable by \citet{Montenegro1999} are actually stable, and therefore that the acoustic instability does not drive turbulence or angular momentum transport in the gas. 
+The alternative view is that gas flow onto the CMZ happens directly through the bar dust lanes \citep[\S\ref{sec:generaldynamics} and Fig.~\ref{fig:sketch};][]{Fux1999,Liszt2006,Liszt2008,Rodriguez-Fernandez2008,Tress2020}. 
+Our view through the Galactic plane complicates the interpretation (see \S\ref{sec:3d}), though a direct connection between dust lanes and nuclear rings is commonly seen in both observations of nearby galactic nuclei and numerical simulations (\S\ref{sec:IG}). 
+
+\cite{Gerhard1992} estimated an inflow rate into the CMZ of $\sim0.1\,\msun\,\yr^{-1}$ by dividing the mass contained in the contour of the $\{l,v\}$ parallelogram by the dynamical time of the cusped orbit (\S\ref{sec:generaldynamics}). \cite{Figer2004} arrived at a higher value of $\sim0.4\,\msun\,\yr^{-1}$ using the same method but assuming a larger mass in the $\{l,v\}$ parallelogram. Note however, as discussed in \S\ref{sec:cmz}, that the interpretation of the parallelogram has changed since these works were published. \cite{Crocker2012} estimated $0.4<\dot{M}_\mathrm{IN}/\msun\,\yr^{-1}<1.8$ by assuming that the CMZ is in a quasi-steady state.
+
+\cite{Sormani2019b} recently revisited this question, and quantified the mass inflow rate by combining CO observations of the dust lanes with a simple geometrical model informed by simulations of gas flow in barred potentials. They report an inflow rate of $\dot{M}_\mathrm{IN} = 2.7^{+1.5}_{-1.7} \msun \yr^{-1}$ averaged over a timescale of $\sim 15\myr$. 
+They find evidence that the inflow is time-variable since the dust lanes contain dense clumps that, when accreted, will produce spikes in the inflow rate. Discrete accretion events might have helped to fuel starburst episodes in the past (see \S\ref{subsec:SFR:starformationhistory} and \S\ref{subsec:SFR:timeevolution}). 
+
+However, \cite{Sormani2019b} overestimate the inflow rate because of the assumption that all the gas on the dust lane will immediately accrete onto the CMZ when it reaches it. It is likely that some of the gas will overshoot the CMZ and get accreted at a later stage. \cite{Hatchfield2021} quantified this effect using hydrodynamical simulations, and estimated the overall efficiency of the inflow via the dust lanes to be of the order $30 \pm 12\%$. They found a corrected, instantaneous inflow rate of $\dot{M}_\mathrm{IN} = 0.8 \pm 0.6\, \msunyr$. 
+
+In summary, over the past few decades, the inflow rate along the bar has been reported to be in the range $0.4\mhyphen2.7\,\msunyr$; we adopt a value of $\dot{M}_\mathrm{IN} = 0.8 \pm 0.6\, \msunyr$ in this review. Accretion at this rate implies that the entire gas content of the CMZ is completely renewed on a timescale of $M_{\rm CMZ}/\dot{M}_\mathrm{IN} \simeq 50\, \myr$. 
+
+\subsubsection{From the CMZ to the nucleus} \label{sec:cndinflow}
+
+How gas migrates from the CMZ towards the nucleus is unclear. 
+Although the Galactic bar is very efficient at transporting the gas from the disc to the CMZ (\S\ref{sec:barinflow}), it is ineffective at driving the gas further inwards (e.g.\ \citealt{Shlosman1990}; and next paragraph). Several mechanisms have been suggested, including: (i) transport driven by stellar feedback \citep{Davies2007}; (ii) viscous mass transport driven by magnetic field instabilities  \citep{Balbus1998}; (iii) the presence of a nuclear bar, which could repeat on a smaller scale the process that causes the larger bar-driven inflow (\citealt{Shlosman1989}; as discussed in \S\ref{sec:potential}, it cannot be ruled out that the NSD is actually a nuclear bar); (iv) weak $m=2,4,6,\dots$ or external (e.g.\ mergers) perturbations which may trigger episodic inflow \citep{Combes2001,Kim2017}. 
+
+\cite{Tress2020} compared two simulations of gas flow in a Milky Way barred potential that are identical except that one has gas self-gravity and supernova feedback and the other does not. They found that while the bar-driven inflow rate to the CMZ is identical in the two simulations at a rate of $\sim 1\, \msun\yr^{-1}$ (consistent with the measured value, see \S\ref{sec:barinflow}), the inflow from the CMZ inwards is zero in the simulation without supernova feedback (the gas simply piles up in the CMZ ring-like structure), while it is significant in the simulation with supernova feedback (see also \citealt{Salas2020}). They concluded that supernova feedback associated with the intense star formation activity in the CMZ can generate an inflow rate of $\sim 0.03\,\msun\,\yr^{-1}$ ($<5\%$ of the inflow rate from large-scales; \S\ref{sec:barinflow}), by stochastically launching parcels of gas towards the centre and/or by randomly changing their angular momentum. At this rate the CND would only take $\sim 3~\myr$ to build up, consistent with the view inferred from observations that the CND is a transient structure on this timescale \citep[][\S\ref{sec:cnd}]{Requena-Torres2012,Mapelli2016,Ballone2019,Dinh2021}. 
+
+The gas continues its journey from the CND towards the centre through the so-called Galactic centre minispiral (also known as the Sgr\,A West H{\sc ii} region), a system of orbiting filamentary streamers that are photoionised by the high-mass stars located within the central parsec \citep{Lo1983, Ekers1983, Nitschai2020a, Heywood2022}. The minispiral streamers have an associated mass inflow rate of $\sim10^{-3}$\,M$_{\odot}$\,yr$^{-1}$ (or $\sim0.1\%$ of the inflow rate from large-scales; \S\ref{sec:barinflow}) into the central few arcseconds \citep{Jackson1993, Genzel1994}. Eventually, only a small fraction of this gas will reach the central black hole (see \citealt{Genzel2010} for a review).
+
+How the contribution of supernova feedback compares to that of the other mechanisms listed above in driving gas from the CMZ towards the centre is an open question \citep{Combes2017b}. Insights from extragalactic observations may help in addressing this problem \citep{Garcia-Burillo2005,Hunt2008}. In the future, it will be important to address the difficult task of quantifying this more precisely.
+
+\subsection{Gas expulsion from the Galactic Centre} 
+\label{sec:feedback}
+
+Gas inflowing from large scales that does not contribute directly to the central mass reservoir or to star formation may be expelled from the Galactic Centre. Here we review the evidence for gas expulsion from the centre of the Galaxy and the possible driving mechanisms. 
+
+\subsubsection{Evidence for outbursts from the Galactic Centre}
+\label{sec:feedback:largescaleoutflow}
+
+Although the CMZ and Sgr\,A$^{*}$ are relatively quiescent compared to nuclear starburst galaxies and active galactic nuclei, there is substantial evidence for historic bursts of energetic phenomena from the Galactic Centre. The largest of these are the so-called ``bipolar hyper shells", detected in both X-ray and radio emission, which extend approximately 14\,kpc above and below the Galactic Plane \citep{Sofue2000, Carretti2013, Sofue2016, Predehl2020}.
+Additionally, there are the Fermi bubbles: a bipolar structure identified in $\gamma$-ray emission that extends $\sim$\,10\,kpc out of the Galactic plane (e.g.\ \citealp{Su2010, Ackermann2014}). 
+The total energy content of the hypershells and Fermi bubbles is of the order $10^{55\mhyphen56}$\,erg \citep{Sofue1987, Bland-Hawthorn2003, Su2010}. 
+The Fermi Bubbles and the X-ray emission detected with eROSITA show remarkably similar morphology, leading to the suggestion that the two are causally related \citep{Predehl2020}. 
+Despite their very large vertical extent, the narrow 100-200\,pc diameter waist of the $\gamma$-ray and X-ray bubbles indicates that they are driven from close to the nucleus \citep{Carretti2013}. 
+
+On smaller scales, there are the radio lobes and the X-ray ``chimneys", which extend to a height of $\sim$\,400\,pc (e.g. \citealp{Sofue1984, Law2009, Law2010, Ponti2019, Heywood2019}), originating from within $\sim50$\,pc of Sgr\,A$^{*}$. 
+Their energy content is $\sim10^{52\mhyphen53}$\,erg, which led \citet{Heywood2019} to speculate that they may be a lower energy analogue to the Fermi bubbles, with \citet[][see also \citealp{Ponti2021}]{Ponti2019} further suggesting that the chimneys may act as a channel that transports energy to larger Galactic latitudes. 
+
+Centred on the Galactic nucleus, extending over $\sim1.8^{\circ}\times0.5^{\circ}$, there is an extended warm ($kT\sim1$~keV; $T\sim10^7$~K) and hot ($kT\sim6.5$~keV; $T\sim10^{8}$~K) plasma, producing a high background of soft and hard X-ray radiation \citep[see e.g.][]{Ponti2015}. 
+The majority of the soft X-ray emission is from diffuse thermal emission (\citealp{Ebisawa2001, Wang2002}), but the origin of the hot component is debated (e.g. \citealp{Crocker2012, Ponti2013}).
+At $1.5^{\circ}$ from the Galactic Centre, $\sim80\%$ of the hot component is resolved into point sources \citep[e.g.\ accreting white dwarfs and coronally active stars;][]{Revnivtsev2009}.
+Nevertheless, it is not excluded that a diffuse hot-plasma component is present in the Galactic Centre (e.g. \citealp{Koyama2009, Uchiyama2013}). 
+At temperatures close to $10^{7\mhyphen8}$\,K the gas would be unbound to the Galaxy \citep[though magnetic fields may help to confine it;][]{Nishiyama2013}, so the energy required to maintain a diffuse hot-plasma component is substantial, $E\sim10^{52-56}$\,erg (e.g. \citealp{Morris1996, Crocker2012, Uchiyama2013}).
+
+\subsubsection{Outflow rate and driving mechanisms}
+\label{sec:feedback:outflowmechanisms}
+
+The rate at which gas is expelled from the CMZ is uncertain. \citet{Bordoloi2017} estimated an outflow rate in warm ionised gas associated with the Fermi bubbles of $\dot{M}_{\rm OUT, warm} \sim 0.4$\,\msunyr. 
+\citet{DiTeodoro2018} estimated an outflow rate in neutral gas of $\dot{M}_{\rm OUT, HI} \sim 0.1$\,\msunyr \ and
+\citet{Diteodoro2020} inferred a comparable contribution from cold molecular gas of $\dot{M}_{\rm OUT, H2} \sim 0.1$\,\msunyr.
+There is also a possible contribution from the hot gas component, though this is far more uncertain \citep[upper limit of $\dot{M}_\mathrm{hot} < 1$\,\msunyr, and possibly much lower;][]{Miller2016, Sormani2019b}. 
+Combining these estimates, the total CMZ outflow rate associated with the Fermi bubbles is of the order $\dot{M}_{\rm OUT, Fermi} \gtrsim 0.6 $\,\msunyr. 
+Corresponding estimates for the mass outflow associated with the X-ray chimneys are scarce. 
+\citet{Crocker2012} estimated an outflow rate of $\dot{M}_{\rm OUT, warm} \sim 0.3$\,\msunyr \ assuming a mass of $\sim$\,2$\times10^{5}$\,\msun\ for the warm ionised gas (\citealp{Law2010}), a canonical outflow speed of 100\,\kms, and a physical extent of $140$\,pc. 
+The molecular gas mass is similar \citep[$\sim$\,3$\times10^{5}$\,\msun;][]{Bland-Hawthorn2003}, and hence $\dot{M}_{\rm OUT, H2} \sim 0.45$\,\msunyr.
+Combining the two gives a total outflow rate of $\dot{M}_{\rm OUT, chimneys} \sim 0.8 $\,\msunyr.  The above estimates for the outflow rates within the Fermi bubble and radio lobes are, therefore, broadly consistent. Assuming that the chimneys act as a channel connecting to the base of the Fermi bubbles \citep{Ponti2021}, this points to a \emph{time averaged} outflow rate of $\dot{M}_{\rm OUT} \gtrsim 0.6\mhyphen0.8 $\,\msunyr, corresponding to a mass loading factor of $\eta_\mathrm{ml}\equiv \dot{M}_{\rm OUT}/\dot{M}_{\rm SFR} \simeq10$.
+
+The driving source of the outflow(s) is contested \citep{Su2010}. Theories include an explosive outburst from Sgr\,A$^{*}$ \citep{Zubovas2011, Guo2012,Yang2022} or star formation activity \citep[e.g.,][]{Strickland2000,Law2010,Crocker2012, Lacki2014,DiTeodoro2018}. Focusing on the latter, individual mini starburst events, such as those that led to the formation of the Galactic Centre's young clusters (e.g. the Arches, Quintuplet, and the young nuclear cluster; \S\ref{sec:starclusters}), may power the outflows. Indeed, \citet{Heywood2019} speculated that the radio lobes may be associated with the young central cluster, noting the similarity between the dynamical time of the bubbles ($\sim$7\,Myr) and the estimated age of the population of 200 or so young ($\sim3\mhyphen6$\,Myr) high-mass stars located in the central parsec \citep{Genzel2010}. 
+
+\citet{Law2010} advocated for a more secular picture. They demonstrated that energy required to drive the Galactic Centre Lobe ($10^{52\mhyphen53}$\,erg; \S\ref{sec:feedback:largescaleoutflow}) is consistent with the energy input by supernovae and stellar winds in the Galactic Centre region, and therefore suggested that a ``starburst'' may not be necessary. There are 18 known supernova remnants within $\ell\pm2\deg$ of the centre \citep{Green2019,Dokara2021}, 10-12 of which are within the inner $|\ell|<1\deg$ \citep{Ponti2015}, though the true number may be higher \citep[e.g.][]{Oka2007, Tsujimoto2018}. The estimated supernova rate is $\sim2\mhyphen15\times10^{-4}$\,yr$^{-1}$ \citep{Crocker2011a, Ponti2015}. Assuming a mechanical energy release per supernova of $10^{51}$\,erg, the corresponding power delivered by supernova is $\sim6\mhyphen50\times10^{39}$\,erg\,s$^{-1}$. Other sources of mechanical energy, e.g., stellar winds, could provide an additional contribution to the total power input. \cite{Crocker2015} argued that weak but sustained star formation (and the resulting supernovae), over the past $\sim$ few $\times10^{8}$\,yr may be driving the Fermi bubbles.
+
+In summary, the gas outflowing from close to the centre plays a significant role in regulating the macro-evolution of the CMZ.
+The primary driver of the outflow remains unclear; it may be driven either by star formation or by past activity from the now-dormant central supermassive black hole.
+
+\subsection{The CMZ gas reservoir}\label{sec:massreservoir}
+
+The gas that is not actively forming stars, and which is not ejected from the Galactic Centre (\S\ref{sec:feedback}), contributes to the central gas reservoir. Here we review our current understanding of the structure of the CMZ gas reservoir, as well as the impact that the physical processes discussed in \S\ref{sec:inwardmassflow} and \ref{sec:feedback} have on the ISM conditions.
+
+\subsubsection{The projected distribution of gas and stars}
+\label{sec:gasstardistrib}
+
+For several decades it has been noted that the gas in the CMZ is asymmetric about the Galactic Centre. \citet{Bally1988} showed that roughly 3/4 of the emission from $^{13}$CO $(1-0)$ in the CMZ is found at $(l>0)$ \citep[see Fig.~\ref{fig:lbv_main} and][]{Dame2001, Lis2001, Bally2010, Molinari2011, Longmore2013a, Eden2020}.
+The gas is also asymmetric in velocity, with most of the gas at positive longitudes also at positive velocity \citep{Bally1988, Henshaw2016b}. Roughly half of all of the negative velocity emission is located at positive longitudes, which is ``forbidden'' for gas on purely circular orbits (Fig.~\ref{fig:lbv_main}).
+
+The gas asymmetry is reflected in the locations of prominent molecular clouds, which are also preferentially located at positive longitudes \citep{Bally2010,Longmore2013a}. 
+This is evident in Figure~\ref{fig:rgb_main}, where the clouds stand out as dark features at 8~$\mu m$ and 24~$\mu m$ \citep{Churchwell2009, Carey2009}, and emit strongly at $\lambda\geq250$~$\mu m$ \citep{Molinari2010, Molinari2011}. 
+From $-1^{\circ}\lesssim l\lesssim0^{\circ}$, the most prominent molecular clouds are Sgr\,C, and the 20\,\kms \ and 50\,\kms \ clouds (otherwise known as the Sgr\,A clouds).
+At $l>0^{\circ}$ we find the highest column density clouds in the Galactic centre. G$0.253+0.016$, otherwise known as ``the Brick'' \citep{Lis1998}, represents the first in a sequence of molecular clouds known collectively as the ``dust ridge'', roughly spanning $0.2^{\circ} \mhyphen 0.8^{\circ}$ in longitude. 
+The dust ridge is bookended by G$0.253+0.016$ (`cloud a') and Sgr\,B2, with a further five clouds, `clouds b -- f', in between (Fig.~\ref{fig:rgb_main}). Although the bulk of the high column density material (total mass of $\approx1.8\times10^{7}$\,\msun) is contained within the inner $|l| \leq 1.0$, $|b| \leq 0.5$, a comparable amount of mass is located at longitudes beyond Sgr\,B2, with large cloud complexes, including the $1.3^{\circ}$ cloud, extending from $l \sim$ 1.0$^{\circ}$ to 3.5$^{\circ}$ \citep{Molinari2011, Longmore2013b}.
+
+Numerical simulations of Milky Way-like galaxies suggest that asymmetric gas distributions in nuclear rings are statistically likely. High-resolution 2D isothermal simulations without self-gravity show that the flow along dust lanes is subject to hydrodynamic instabilities, and is therefore unsteady \citep{Kim2012c,Sormani2015c}. \cite{Sormani2018b} used 3D hydrodynamical simulations to explicitly test the idea that this unsteady flow may explain the observed asymmetry in the CMZ even in the absence of self-gravity, stellar feedback, and magnetic fields. They demonstrated that an asymmetry develops spontaneously, even when starting with perfectly symmetric initial conditions. Comparing to the CMZ, they found that $>70\%$ of the CO lies at one side of the Galactic centre for $>30\%$ of the time in their simulation. 
+The inclusion of additional physical mechanisms (e.g.\ stellar feedback, self-gravity, a live stellar potential, or pre-existing large-scale asymmetries) will create further asymmetries in the gas distribution \citep{Fux1999, Rodriguez-Fernandez2008, Emsellem2015, Torrey2017, Armillotta2020}.
+Together, these simulations demonstrate that the asymmetry may be driven, at least partly, by physical processes acting on scales larger than the CMZ itself. It is also likely to be transient, such that in a dynamical timescale ($\sim5\mhyphen10$\,Myr) an asymmetry in the opposite sense is just as likely. 
+
+It remains unclear whether there is any asymmetry among young stellar populations in the CMZ.
+Most of the present-day embedded YSOs, as traced by dust cores, masers, and outflows (\S\ref{sec:sfinaction}), are located at positive longitudes, following the gas asymmetry \citep[\S\ref{sec:incipientsf}; ][]{Ginsburg2018b,Rickert2019,Hatchfield2020,Lu2019a,Lu2019b,Lu2020,Lu2021,Walker2021}. 
+However, stars that formed $\gtrsim1$ Myr ago do not.
+\citet{Yusef-Zadeh2009} suggested that there is a substantial excess of YSOs, including Class II (disc-only) objects that are no longer embedded, at negative longitudes.
+However, at least some of these sources have been shown to be misclassified as YSOs, and are likely main sequence stars \citep[][see \S\ref{subsec:SFR:current}]{An2011, Koepferl2015}.
+Among somewhat older stars detected in the near-infrared (1-2\um) window, which formed recently ($<10$ Myr), the spatial distribution appears relatively even with longitude \citep{Nandakumar2018,Clark2021}, though because of the challenges of classifying these sources, the samples remain incomplete. 
+Adding to the confusion, there is a population of stars believed to be forming along the far side dust lane (see \S\ref{sec:dustlanes}), falling toward, but not necessarily into, the CMZ \citep{Anderson2020}.
+
+In summary, there is clear evidence for an asymmetry in the gas distribution in the CMZ, and numerical simulations have demonstrated that such an asymmetry is statistically likely. However, while many models have been developed that can partly or completely account for the asymmetry, it remains extremely challenging to pinpoint which of the potentially important physical processes dominates in driving it. As for the young stellar populations in the CMZ, asymmetry has been proposed but remains inconclusive.
+
+\subsubsection{The 3D geometry of the CMZ} 
+\label{sec:3d}
+
+Observations of extragalactic systems from the UV through to the (sub-)millimetre offer some qualitative insight into the 3D geometry of the CMZ. Extragalactic nuclei exhibit a range of structures, including rings and both tightly wound and chaotic nuclear spirals \citep{Peeples2006, Comeron2010, Pan2013, Viti2014, Audibert2019, Callanan2021, Lee2022}.
+Broadly speaking, the overall consensus is that the gas in the CMZ is organised into an eccentric ring-like or toroidal structure (\S\ref{sec:cmz}). 
+However, constraining the precise details of the geometry is challenging, necessarily multi-faceted, and the topic remains controversial.
+
+\paragraph{Global models of the 3D geometry:}\label{sec:3dmodels} Attempts to determine the 3D geometry of the CMZ have typically involved translating the $\{l,b,v\}$ distribution of gas into a face-on morphological and kinematical description. 
+Most of the molecular gas mass in the CMZ \citep[$\sim3\times10^{7}$\,\msun;][]{Sofue1995a} is distributed throughout two extended gas streams that are located between $-0.65^{\circ}<l<0.7$ and $-150\,{\mathrm \kms}<v<100\,{\mathrm \kms}$ \citep{Bally1987, Sofue1995a, Tsuboi1999, Henshaw2016b, Eden2020}.
+Although the streams are difficult to distinguish on the plane of the sky due to confusion along the line-of-sight, the distinction becomes more clear in $\{l,v\}$-space (Fig.~\ref{fig:lbv_main}). 
+They are separated in velocity by $\approx50$\,\kms \ and appear almost parallel in $\{l,v\}$, increasing in velocity in the direction of increasingly positive longitudes \citep{Henshaw2016b}. 
+The gas associated with the most massive molecular clouds can be directly attributed to these contiguous streams. 
+The modelling of the $\{l,b,v\}$ distribution of the molecular gas has led to three main interpretations for the true 3D distribution, which we illustrate in Fig.~\ref{fig:sketch}.
+
+The first interpretation is that the gas in the CMZ is organised into a two-armed spiral (see panel B; Fig.~\ref{fig:sketch}), similar to the nuclear spirals that are commonly seen in the centres of barred spiral galaxies \citep{Schinnerer2002, Martini2003a, Martini2003b, vandeVen2010}. \citet{Sofue1995a} qualitatively interpreted the $\{l,b,v\}$-streams described in \S\ref{sec:3dobs} as two spiral arms centred on Sgr\,A$^{*}$ \citep[see also][]{Scoville1974, Johnston2014}. 
+The precise details of this interpretation have evolved over time. 
+\cite{Ridley2017}, for example, used simulations of gas flow in a Milky Way-like barred potential to develop this theory into a quantitative dynamical model. 
+Within this interpretation, there are different views on where the individual clouds should be located (see \S~\ref{sec:3dobs}).
+
+The second interpretation is that the gas is distributed throughout an approximately elliptical ring, with the streams described above representing the near- and far-side of this ellipse.
+This interpretation is also inspired by observations of nearby barred galaxy centres, which often show a ring-like gaseous nuclear structure. 
+\citet{Binney1991} initially interpreted the dense gas in the CMZ as following nearly-elliptical $x_2$ orbits (\S\ref{sec:gasdynamics}). 
+The advent of \emph{Herschel} in the early 2010s provided a striking new view of the CMZ, inspiring a new geometrical model within this framework.
+\citet{Molinari2011} noted that the dust continuum emission appears to form an $\infty$-shaped pattern on the plane of the sky (Fig.~\ref{fig:rgb_main}).
+They modelled the $\{l,b,v\}$ streams as a single, vertically oscillating, elliptical orbit with a radius of $\approx100$\,pc (see panel C; Fig.~\ref{fig:sketch}). 
+A notable difference between the \cite{Molinari2011} kinematic $x_2$-like orbits and the dynamical $x_2$ orbits of \cite{Binney1991} is that in the former the centre of the ring is displaced with respect to Sgr\,A$^{*}$, such that Sgr\,A$^{*}$ is closer to the front than the back of the ellipse. 
+However, this displacement is problematic from a dynamical point of view since $x_2$ orbits are always centred on the bottom of the gravitational potential (\S\ref{sec:generaldynamics}).
+
+The third interpretation is that the observed gas streams are different portions of a single ballistic open orbit (see panel D; Fig.~\ref{fig:sketch}). 
+By using an order of magnitude more kinematic measurements than \cite{Molinari2011}, \citet[][]{Kruijssen2015} highlighted that the \citet{Molinari2011} model provides a poor fit to the $\{l,b,v\}$ distribution.
+Building on some of the successes of the \citet{Molinari2011} model, namely that the orbit is eccentric and that it oscillates vertically, \citet{Kruijssen2015} integrated ballistic orbits in an axisymmetric gravitational potential and fitted them to the molecular gas distribution in $\{l,b,v\}$-space.
+Their best-fitting model is an open, eccentric, \emph{pretzel}-shaped orbit.
+
+\citet{Henshaw2016b} compared the \citet{Sofue1995a}, \citet{Molinari2011}, and \citet{Kruijssen2015} models. 
+They concluded that the latter of these provides the best morphological match to the molecular gas distribution in $\{l,b,v\}$-space. 
+Despite this, many questions remain. 
+It is not clear, for example, how the \citet{Kruijssen2015} model relates to the larger-scale context discussed in \S\ref{sec:IG}, in particular to the dust lanes and the other features surrounding the CMZ. 
+Furthermore, this geometry has yet to be replicated by large-scale numerical simulations in a bar potential \citep{Armillotta2020, Tress2020}. 
+
+\paragraph{The line-of-sight location of clouds, points of contention, and open questions:}
+\label{sec:3dobs} Several works have independently attempted to determine the line-of-sight locations of individual CMZ clouds, with mixed success. 
+The different models described in \S\ref{sec:3dmodels} exhibit various levels of (dis)agreement both with these observations and with each other (Fig.~\ref{fig:sketch}). 
+In what follows, we describe the effort to determine the line-of-sight location of individual clouds and the extent to which the models agree (or disagree) with each other. 
+\medskip
+
+\noindent\emph{Sgr\,B2 \& the dust ridge}: The cloud with the strongest constraints on its line-of-sight position so far is Sgr\,B2.
+\citet{Reid2009} determined the distance to Sgr\,B2 using trigonometric parallax measurements, finding that the cloud resides in the foreground of Sgr\,A$^{*}$ at a distance of $R\simeq130\pm60$\,pc. 
+\citet[][see also \citealp{Yan2017}]{Sawada2004} compared the relative strength of CO emission and OH absorption features, and found results that are consistent with Sgr\,B2 residing in the foreground, although the spatial resolution of the OH observations (12\,arcmin or $\approx30$\,pc) was insufficient to resolve the individual streams or clouds.
+X-ray measurements that use the time delay of reflected X-ray radiation, due to flare-like events from Sgr\,A$^{*}$, to constrain cloud positions also support the view that Sgr\,B2 is in the foreground \citep{Ponti2010,Clavel2013,Walls2016, Churazov2017a, Churazov2017b, Chuard2018, Terrier2018}.
+In particular, \citet{Chuard2018} find good agreement between the line-of-sight position of Sgr\,B2 determined using this method and that estimated by \citet{Reid2009}.
+The Sgr B2 `cores' M, N, and S appearing as absorption features in [CII] maps further supports this orientation \citep{Harris2021}.
+Finally, location of Sgr\,B2 in the foreground of Sgr\,A$^{*}$ is qualitatively consistent with the fact that the cloud appears in extinction in the mid-infrared (Fig.~\ref{fig:rgb_main}).
+The remaining dust ridge clouds, belong to a contiguous stream in $\{l,b,v\}$-space that connects to Sgr\,B2, and, like Sgr B2, are observed in extinction, suggesting that they too are in the foreground of Sgr\,A$^{*}$. Although there has been some suggestion that the ``Brick'' (G0.253+0.016) is located outside of the Galactic Centre \citep{Zoccali2021}, this has been refuted \citep{Nogueras-Lara2021}.
+
+As can be seen in Fig.~\ref{fig:sketch}, both the spiral arm (panel B) and the open stream (panel D) models agree that the dust ridge clouds are located in the foreground of Sgr\,A$^{*}$. 
+Given the independent measurements described above, this conclusion seems reasonably uncontroversial. 
+However, the elliptical orbit (panel C) places Sgr\,B2 behind Sgr\,A$^{*}$, in contrast to the parallax and X-ray measurements.
+\medskip 
+
+\noindent\emph{The Sgr\,A clouds}: The complexity imposed by projection effects in the Sgr\,A region means that the location of the 20 and 50\,\kms \ clouds are particularly controversial \citep[see ][for a comprehensive summary]{Ferriere2012}. 
+There is circumstantial evidence to suggest that these clouds are interacting with the known supernova remnant Sgr\,A East, which is thought to envelop the CND (\S\ref{sec:cnd}) and the minispiral (\S\ref{sec:inwardmassflow}), located within the central 10\,pc \citep{Zylka1990,Ho1991,Serabyn1992,Coil1999, Coil2000, Yusef-Zadeh1999a, Sjouwerman2008, Hsieh2017, Hsieh2019, Tsuboi2018, Tanaka2021}. 
+The general consensus among the studies seeking to describe the 3D structure of the gas in the immediate vicinity of Sgr\,A (i.e. not the CMZ as a whole) is that the 20\,\kms \ cloud lies in front of the Galactic centre, the CND, and Sgr\,A East, and that the majority of the gas associated with the 50\,\kms \ cloud lies adjacent to Sgr\,A East, although some note that part of the cloud may curve around into the foreground \citep{Herrnstein2005, Lee2008}.
+
+The placement of the Sgr\,A clouds within 10-20\,pc of Sgr\,A$^{*}$ is somewhat problematic for each of the models described in \S\ref{sec:3dmodels}. 
+While the \citet{Sofue1995a} model does not explicitly describe the location of the Sgr\,A clouds, this model is based on the interpretation that the two contiguous $\{l,b,v\}$-streams represent physically continuous spiral arms. 
+Since the emission belonging to the 20 and 50\,\kms \ clouds is associated with the far-side arm in this model, it implicitly places them behind Sgr\,A$^{*}$, connecting to Sgr\,C.
+\citet{Ridley2017} instead associated the 20 and 50\,\kms \ clouds with the near-side spiral arm in their dynamical model (though the location of the dust ridge clouds is modified as a result). 
+The displacement of the elliptical ring relative to the location of Sgr\,A$^{*}$ in the \citet{Molinari2011} model means that the clouds are located close to the nucleus, while also remaining part of the contiguous $\{l,b,v\}$-stream. 
+However, as described in \S\ref{sec:3dmodels}, this displacement comes at the expense of physical consistency with regard to the assumption that the gas is following $x_2$ orbits, and furthermore forces the model to place Sgr\,B2 behind Sgr\,A$^{*}$, in contention with several independent lines of evidence.
+The \citet{Kruijssen2015} model places the 20\,\kms \ and 50\,\kms \ clouds $\gtrsim60$\,pc in the foreground of Sgr\,A$^{*}$.
+These authors proposed that the only way for the clouds to be closer to Sgr\,A$^{*}$ is if they are physically unrelated to the $\{l,b,v\}$-stream with which the bulk of their molecular emission is associated.
+They argued that this is unlikely, and instead speculated that the extension of the clouds along the line-of-sight may be a deciding factor in resolving this uncertainty. 
+Finally, \citet{Tress2020} suggest that the conundrum could be resolved if the gas geometry is more complicated than assumed by each the models described in \S\ref{sec:3dmodels}.
+They proposed that the $\{l,b,v\}$-stream containing the 20 and 50\,\kms \ clouds may bifurcate in physical space, with the Sgr\,A clouds following a path that takes them closer to Sgr\,A$^{*}$.
+
+In conclusion, the line-of-sight location of the 20 and 50\,\kms \ clouds is controversial, and there is disagreement between models describing the CMZ as a whole and studies that have focused on the morphology and kinematics in the vicinity of Sgr\,A only.  
+\medskip 
+
+\noindent\emph{Sgr\,C}: The line-of-sight location of Sgr\,C is poorly determined. \citet{Chuard2018} constrained its position using X-ray echoes, but the method picks up multiple sources distributed over a line-of-sight distance of $\sim50$\,pc. 
+Low-angular resolution absorption measurements consistently place Sgr\,C on the far-side of the Galactic Centre, behind Sgr\,A$^{*}$ \citep{Sawada2004, Yan2017}. 
+
+Sgr\,C is part of the same contiguous $\{l,b,v\}$-stream that is associated with the 20 and 50\,\kms \ clouds.
+Though all of the models described in \S\ref{sec:3dmodels} agree on this point, the precise location of Sgr\,C relative to Sgr\,A$^{*}$ is an open question. 
+Some of the models place the cloud on the far-side of the Galactic Centre \citep{Sofue1995a, Molinari2011} and others on the near-side \citep{Kruijssen2015, Ridley2017}. 
+In the absence of independent constraints, it is difficult to make a conclusive statement regarding the location of this cloud. 
+\medskip
+
+\noindent\emph{The 1.3$^{\circ}$ complex}: How the 1.3$^{\circ}$ cloud complex fits into the picture is highly debated, to the point that it is unclear whether it should even be considered as part of the main CMZ ring-like structure or not. 
+A recurrent suggestion is that the $1.3^{\circ}$ complex is located at a contact point between the CMZ and the near-side dust lane \citep[][see also \S\ref{sec:dustlanes}]{Huettemeister1998,Fux1999,Rodriguez-Fernandez2006,Sormani2019a}. Theoretical models predict that the mass accretion occurring at the contact points should appear in observations as EVFs \citep[\S\ref{sec:EVFs};][]{Fux1999,Sormani2019a}. 
+Consistent with this prediction, a clear example of an EVF is detected in $^{12}$CO data at the location of the $1.3^\circ$ complex between $v=100\mhyphen 200 \, \kms$ (\citealt{Liszt2006,Sormani2019a}, and Fig.~\ref{fig:lbv_main}). 
+This led \citet{Tress2020} to argue that the $\{l,b,v\}$-contiguity between the $1.3^{\circ}$ cloud and the gas in the 100-pc stream implies a physical connection between the two. 
+Therefore, in this interpretation the 1.3$^{\circ}$ complex is part of the CMZ ring-like structure, situated at its edge.
+
+\cite{Krumholz2015} offer an alternative interpretation.
+They suggest that the $1.3^{\circ}$ complex is part of a highly turbulent gas reservoir that will gradually lose angular momentum over the next $\sim5$\,Myr before entering the inner 100\,pc stream \citep[in contrast to the faster and more violent accretion events implied by the EVF interpretation;][]{Sormani2019a}. 
+In this interpretation, the 1.3$^{\circ}$ complex is not part of the CMZ ring-like structure.
+
+Projection effects play a considerable role in this debate. 
+The scale height of the $1.3^{\circ}$ cloud complex is roughly $5$ times larger than that of the main $\{l,b,v\}$-streams \citep{Rodriguez-Fernandez2008, Henshaw2016b}. 
+This can be interpreted as evidence both for and against the $1.3^{\circ}$ complex being part of the CMZ ring-like structure.
+If the complex does reside at the contact point, collision-driven turbulence may explain its puffiness and extensive shocked gas emission \citep{Huettemeister1998, Rodriguez-Fernandez2006, Tress2020}. 
+Alternatively, if the cloud is not physically connected to the main CMZ-ring like structure, a combination of elevated turbulence and projection may help to explain its extensive scale height relative to the $\{l,b,v\}$-streams \citep{Krumholz2017}.
+\\
+
+To summarise, we know that the CMZ is organised in a torus-like structure and there is some consensus on the position of a few molecular clouds, including the dust ridge molecular clouds. 
+However, the position of several clouds as well as the detailed 3D geometry (nuclear spirals vs. ring vs. open stream) are open questions.
+Contributing to this issue is the low-angular resolution of the data upon which all of the models described in \S\ref{sec:3dmodels} are based. 
+This makes it difficult to distinguish between parts of the gas streams that lie close in $\{l,b,v\}$-space. 
+Future higher-angular resolution observations of the CMZ (from e.g.\ ALMA; \S\ref{sec:summary}) will help disentangling such cases, and it may turn out that the distribution of gas around the Galactic centre is simply more complicated than that assumed in the models in \S\ref{sec:3dmodels}. 
+A separate issue is that independent constraints on the location of individual clouds are in short supply. 
+Additional constraints are likely to come from proper motion measurements of masers \citep[e.g.][]{Immer2020} and from X-ray emission \citep[e.g.][]{Chuard2018}. 
+Combined, these new observations will help us to build a coherent picture of the 3D geometry of the CMZ in the future.
+
+\subsubsection{Star formation ``hot spots''} 
+\label{sec:sfhotspots}
+
+One of the motivations for delineating the 3D structure of the CMZ is that morphology may be important in controlling where and when star formation occurs in the Galactic Centre (\S\ref{subsec:SFR:starformationhistory}). 
+Evolutionary sequences in the ages of stars are sometimes observed in extragalactic nuclei, suggesting that star formation in nuclear rings may be triggered at preferred spatial locations \citep{Ryder2001, Allard2006, Mazzuca2008, Boker2008, Hennig2018, Callanan2021}. 
+
+\citet{Longmore2013a} proposed that star formation in CMZ clouds may be triggered by tidal compression at pericentre in an eccentric orbit around the Galactic Centre (\S\ref{sec:3d}). 
+This scenario was originally posed in relation to the dust ridge molecular clouds, where G$0.253+0.016$ shows very little evidence of widespread star formation and is interpreted as having passed through pericentre $\sim0.3$\,Myr ago, while Sgr\,B2, one of the most prodigiously star-forming regions in the Galaxy, resides $\sim0.75$\,Myr post pericentre \citep[Fig.~\ref{fig:sketch}][]{Kruijssen2015}. The observational evidence in support of this scenario includes increasing gas temperatures \citep{Ginsburg2016, Krieger2017}, possible star formation activity \citep{Immer2012a, Rathborne2014a, Ginsburg2018b, Walker2018, Barnes2019}, and the increasing evolutionary stage of H\,{\sc ii} regions \citep{Barnes2020b} downstream of the model-predicted location of pericentre \citep{Kruijssen2015}. If confirmed, such a sequence would help to place important constraints on the time evolution of star formation in the CMZ. 
+
+It is clear however, that the star formation activity along the dust ridge is not strictly monotonic \citep{Walker2018}. Moreover, \citet{Kauffmann2017b} found no obvious trends in mass-size relation and SFRs of clouds as a function of orbital phase more generally throughout the CMZ. 
+\citet[][see also \citealp{Kruijssen2017}]{Kruijssen2019} argued that the variation in the initial conditions of the clouds prior to the trigger event means that one would not necessarily expect strict downstream monotonicity.
+Indeed, \citet{Henshaw2016a, Henshaw2020} identified a series of quasi-periodical cloudlets located $\sim0.3\mhyphen0.8$\,Myr upstream from the location of G$0.253+0.016$ in the \citet{Kruijssen2015} model.
+Their $\{$masses, radii, volume densities, free-fall times$\}$ show variation of the order $\{$0.19, 0.09, 0.16, 0.08$\}$ dex \citep{Henshaw2017, Kruijssen2017}, providing a plausible explanation for the lack of monotonicity in the star formation sequence evident post pericentre in the dust ridge. 
+However, \citet{Henshaw2020} argued that the clouds have formed via gravitational instabilities, suggesting that pericentre passage may not be an exclusive condition for collapse. 
+This view is supported by \citet{Jeffreson2018a}, who found that cloud collapse due to tidal compression at pericentre occurs less often than that initiated by gravitational instabilities.
+
+\citet{Hatchfield2021} used hydrodynamic simulations in a barred potential to investigate the interaction between gas infalling along the dust lanes and the CMZ, in the absence of self-gravity and star formation. 
+They found sharp peaks in the cloud density that are strongly correlated with the location of orbital apocentre.
+These density enhancements result from gas clouds slowing down at apocentre (which creates a ``traffic jam'' effect) and from collisions between the gas inflowing along the dust lanes and clouds in the nuclear ring. 
+The inclusion of self-gravity and subgrid prescriptions for star formation and supernova feedback tells a similar, albeit more complicated story. 
+\citet{Sormani2020b} found that the time-averaged surface density of very young ($t\leq0.25$\,Myr) stars increases just downstream of apocentre. 
+However, they commented that the width of these surface-density enhancements are broad ($\leq$ half an orbit), and that they are not the only locations where star formation takes place in their simulation. 
+\citet{Armillotta2020} similarly concluded that star formation sequences are more likely to occur downstream from the contact point with the dust lanes, rather than at pericentre. 
+
+There is some evidence to suggest that orbital dynamics may influence star formation in Sgr\,B2.
+In particular, the location of Sgr\,B2 close to apocentre in each of the models described in \S\ref{sec:3dmodels} suggests that the gas could pile up at this location \citep{Hatchfield2021}.
+The molecular gas associated with Sgr\,B2 has a conical appearance in $\{l,b,v\}$-space. When integrated over discrete velocity intervals the cloud appears as a sequence of nested shells \citep{Henshaw2016b, Armijos-Abendano2020}. 
+The largest of these shells (between $\sim20\mhyphen40$\,\kms) has a projected spatial extent of $\gtrsim30$\,pc \citep{Bally1988}. 
+\citet[][see also \citealp{Sato2000}]{Hasegawa1994} cited the morphological similarity between a small hole evident near the apex of this cone (at $\sim40\mhyphen50$\,\kms) and a clump of molecular gas (at $\sim70\mhyphen80$\,\kms) as evidence that a small cloud has ``punched through'' the cloud. 
+At the proposed collision site there is evidence for prodigious star formation activity and feedback \citep{Tsuboi2015b}, maser emission \citep{Sato2000}, chemical complexity \citep{Zeng2020, Colzi2022}, and an enhancement in shocked gas tracers \citep{Armijos-Abendano2020}.
+However, the presence of these signatures may have multiple explanations \citep{Henshaw2016b, Kruijssen2019}, including star formation triggered at pericentre \citep{Longmore2013a}.
+Therefore it remains debated whether the starburst in Sgr\,B2 has been triggered by a cloud-cloud collision.
+
+Cloud-cloud collisions have been invoked to explain the physical, dynamic, and chemical properties of a number of Galactic Centre clouds in addition to Sgr\,B2. These include G$0.253+0.016$ \citep{Higuchi2014, Johnston2014}, the 50\,\kms \ cloud \citep{Tsuboi2015a}, M$0.014-0.054$ \citep{Tsuboi2021} (which is located close to the 50\,\kms \ cloud), and the EVFs discussed in \S\ref{sec:EVFs}. The evidence commonly cited in favour of collisions includes the identification of shells or cavities \citep{Hasegawa1994, Sato2000, Higuchi2014,Tsuboi2015a}, ``bridge features'' that connect multiple velocity components \citep{Johnston2014, Tsuboi2021}, and the prevalence of emission from shocked gas \citep{Zeng2020, Armijos-Abendano2020}, sometimes coupled to star formation events. Unambiguous signatures of cloud-cloud collisions are hard to come by \citep[though progress is being made;][]{Haworth2015,Fukui2021,Priestley2021}, particularly in an environment as dynamically complex as the CMZ. And the rate at which they occur in the CMZ may be low relative to other mechanisms dominating the cloud lifetime \citep[e.g. gravitational instability;][]{Jeffreson2018a}. An exception are the EVFs, which can be identified relatively clearly thanks to their extreme relative collision velocities (often $>100\kms$; \S\ref{sec:EVFs}).
+
+\subsubsection{Turbulent Driving}
+\label{sec:turbulentdriving}
+The processes discussed throughout this section directly influence the physical state of the gas in the CMZ, contributing to the extreme ISM conditions.
+The gas in the CMZ is characterised by velocity dispersions that are well above those measured in Galactic disc clouds, as has been noted since the earliest molecular observations of CMZ gas \citep{Bally1987}. This indicates an overall higher level of turbulence, and raises the question of what is driving it. Given the key role turbulence is expected to play in determining the star formation rate (\S\ref{sec:cloudtodisc} and \S\ref{sec:environmentofstarformation}), here we give a quantitative summary of CMZ turbulent driving.
+
+To maintain the broad velocity dispersion, turbulence in the CMZ needs to be constantly driven.
+The energy per unit time dissipated by the observed turbulent motions in the CMZ can be estimated as \citep[e.g.][]{MacLow2004} 
+
+\setlength{\mathindent}{0pt}
+
+\begin{footnotesize}
+
+\begin{align} \label{eq:turb1}
+    \dot{E} &= \frac{1}{2} \frac{M_\mathrm{CMZ} \sigma^{3}}{h} \nonumber \\
+    & \simeq 2.8 \times 10^{39} \left(\frac{M_{\rm CMZ}}{5\times10^7\, \msun} \right) \left(\frac{\sigma}{12 \kms}\right)^3 \left(\frac{h}{20\pc}\right)^{-1}  \, \mathrm{erg\,s^{-1}},
+\end{align}
+\end{footnotesize}
+%
+where $M_{\rm CMZ}$ is the total gas mass of the CMZ, $\sigma$ is the typical velocity dispersion and $h$ is the CMZ scale-height.  
+
+Several possible turbulent drivers have been evaluated, though no consensus has been reached on which, if any, dominates.
+\cite{Kruijssen2014a} examined a range of possible turbulence driving mechanisms, including inflow along the bar, stellar feedback, gravitational instabilities, and acoustic instabilities. 
+They found that bar inflow and acoustic instabilities could explain the observed turbulent energy, feedback makes a minor contribution, and gravitational instability, though perhaps important in the densest gas, is likely not important in the broader non-star-forming material.
+However, \cite{Sormani2020c} demonstrated that the acoustic instability proposed by \citet{Montenegro1999} is a spurious result (\S\ref{sec:barinflow}), ruling out this latter mechanism as a source of turbulent driving.
+
+Following the compilation of \citet[][and \citealp{MacLow2004}]{Kruijssen2014a}, we revisit the question of turbulence driving using the updated values presented in this review. 
+Assuming that the kinetic energy is completely converted into turbulent motions, the energy injected by the bar inflow into the CMZ per unit time is
+
+\setlength{\mathindent}{0pt}
+\begin{footnotesize}
+\begin{align}
+    \dot{E}_\mathrm{IN} & =\frac{1}{2}\dot{M}_{\rm IN} v_{\rm IN}^2 \nonumber \\
+    & \simeq 2.5\times 10^{39}\left(\frac{\dot{M}_{\rm IN}}{0.8\,\mathrm{M}_\odot\mathrm{yr}^{-1}}\right)\left(\frac{v_\mathrm{IN}}{100\,\mathrm{km\,s}^{-1}}\right)^{2}\, \mathrm{erg\,s^{-1}},
+\end{align}
+
+\end{footnotesize}
+% 
+where $\dot{M}_{\rm IN}$ is the mass inflow rate and $v_\mathrm{IN}\simeq100$\,\kms \ is taken as a representative relative velocity between the inflowing gas and the gas already in the CMZ \citep[e.g.][]{Sormani2019b}. Although this simple estimate gives a value that is comparable to the dissipation rate (Eq.~\ref{eq:turb1}), it is unclear how much of the kinetic energy is converted into turbulent energy versus how much is lost to e.g. heat and radiated away \citep{Klessen2010}. Simulations that include only this source of turbulence \citep[e.g.][]{Sormani2019a} produce features in the $\{l,v\}$ plane that appear too narrow in velocity, inconsistent with the observations.
+Thus, while turbulence driven by gas inflow may be important, it is probably not the only contributing factor.
+
+The energy injected by supernovae can be estimated as
+
+\setlength{\mathindent}{0pt}
+\begin{footnotesize}
+
+\begin{align}
+    %\begin{split}
+    \dot{E}_{\rm SN} & =\sigma_\mathrm{SN}\eta_\mathrm{SN}E_\mathrm{SN} \nonumber \\
+    & \simeq 5\times10^{39} \left( \frac{\sigma_\mathrm{SN}}{15\times10^{-4}\,\mathrm{yr}^{-1}} \right)\left( \frac{\eta_{\rm SN}}{0.1} \right)\left( \frac{E_\mathrm{SN}}{10^{51}\,\mathrm{erg}} \right)\ergs,
+    %\end{split}
+\end{align}
+
+\end{footnotesize}
+%
+where $\sigma_\mathrm{SN}$ is the supernova rate (where $15\times10^{-4}\,\mathrm{yr}^{-1}$ is the upper limit; \S\ref{sec:feedback:outflowmechanisms}), $\eta_{\rm SN} \simeq 0.1$ is a (rather uncertain) factor that quantifies the efficiency of energy transfer from supernovae to the interstellar gas \citep{MacLow2004}, and $E_\mathrm{SN}$ is the energy delivered per supernova (assumed to be $10^{51}$\,erg). This estimate indicates that supernovae may make an important contribution to turbulence in the CMZ.
+
+A further contribution to the turbulence may come from magnetorotational instabilities, which can extract rotational (orbital) energy and convert it into turbulent energy  at a rate given by \citep{Sellwood1999}:
+
+\setlength{\mathindent}{0pt}
+
+\begin{footnotesize}
+\begin{align}
+    & \dot{E}_{\rm MRI} = -T_{R\theta}\frac{d\Omega}{d\mathrm{ln}R}V \simeq T_{R\theta}\Omega V \simeq \frac{0.6}{8\pi}B^{2}\Omega V \nonumber \\
+    & \simeq 2 \times 10^{38} \left( \frac{B}{100 \mu \mathrm{G}} \right)^2 \left(\frac{\Omega}{1.25 \myr^{-1}}\right) \left( \frac{V}{6 \times 10^5 \, \pc^3} \right) \ergs,
+\end{align}
+
+\end{footnotesize}
+%
+where $T_{R\theta}$ is the Maxwell stress tensor \citep[the approximation $T_{R\theta}\simeq \frac{0.6}{8\pi}B^{2}$ is determined from numerical models;][]{Hawley1995}, $B$ is the magnetic field strength, $\Omega$ is the orbital angular velocity, and $V=\pi R^{2}h$ is the volume of the CMZ, where we have taken $R=100$\,pc and $h=20$\,pc. 
+This contribution is sensitive to the uncertain strengths of the magnetic fields. The B-field adopted in this estimate is in the middle of the measured range range (\S \ref{sec:magneticfields}).
+While a stronger B-field would allow the MRI contribution to be dominant, such a B-field is disfavored by observations. Thus, while magnetorotational instabilities may provide a non-negligible contribution, they are unlikely to be dominant. 
+
+Additional, smaller contributions may come from gravitational instabilities, protostellar outflows, and ionising radiation from massive stars \citep{MacLow2004,Kruijssen2014a}. However, these latter mechanisms have the problem that they cannot sustain turbulence on scales much larger than individual clouds or are limited to clouds that are already actively star-forming.
+
+Overall, the elevated level of turbulent energy in the CMZ is likely dominated by the combined effects of supernova feedback, inflow along the bar, and possibly magnetorotational instabilities, though further work is needed to ascertain the relative contribution of each of these mechanisms. 

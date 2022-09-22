@@ -1,0 +1,297 @@
+
+%\usepackage{graphicx}
+%\makeatletter
+%\let\saved@includegraphics\includegraphics
+%\AtBeginDocument{\let\includegraphics\saved@includegraphics}
+%\makeatother
+
+% PACKAGES
+
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amstext}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{url}
+\usepackage{tabularx}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{graphics}
+\usepackage{multirow}
+\usepackage{soul}
+\usepackage{booktabs} 
+\usepackage{colortbl} 
+\usepackage{xfrac}
+\usepackage{xspace}
+\usepackage{verbatim}
+\usepackage{longtable}
+% \usepackage[switch]{lineno} % Column numbers
+\usepackage[outercaption]{sidecap}    
+\usepackage{rotating}
+\usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
+\usepackage[english]{babel} % English language hyphenation
+\usepackage{microtype} % Better typography
+\usepackage[svgnames]{xcolor}
+%\usepackage[small, labelfont=bf, up]{caption} % Custom captions under/above tables and figures
+\usepackage{enumitem} % Required for customising lists
+\setlist{noitemsep} % Remove spacing between bullet/numbered list elements
+\usepackage{sectsty} % Enables custom section titles
+%\allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands (Helvetica)
+%\usepackage[raggedright]{titlesec}
+\usepackage{multicol} 
+\usepackage{natbib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=Blue,citecolor=Blue,filecolor=Blue,urlcolor=Blue}
+
+% \def\LuCores{Lu2019a}
+% \def\LuSFR{Lu2019b}
+% \def\LuFooBar{Lu2019c}
+
+% \usepackage{titlesec} % <---- don't do this!!!  it erases/hides the title section
+%\titleformat{\paragraph}[hang]{\normalfont\normalsize\itshape}{\theparagraph}{1em}{}
+%\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+%\usepackage[nomarkers]{endfloat}
+%----------------------------------------------------------------------------------------
+%	MARGINS AND SPACING
+%----------------------------------------------------------------------------------------
+
+
+\usepackage[a4paper, total={172mm,252mm}]{geometry} % Required for adjusting page dimensions
+
+% \geometry{
+% 	top=1cm, % Top margin
+% 	bottom=1.5cm, % Bottom margin
+% 	left=2cm, % Left margin
+% 	right=2cm, % Right margin
+% 	includehead, % Include space for a header
+% 	includefoot, % Include space for a footer
+% 	%showframe, % Uncomment to show how the type block is set on the page
+% }
+
+% \setlength{\parskip}{0em}
+
+%----------------------------------------------------------------------------------------
+%	FONTS
+%----------------------------------------------------------------------------------------
+% \usepackage{helvet}
+% \renewcommand\familydefault{\sfdefault} 
+% \usepackage[T1]{fontenc} % Output font encoding for international characters
+% \usepackage[utf8]{inputenc} % Required for inputting international characters
+
+
+%----------------------------------------------------------------------------------------
+%	HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+
+% \usepackage{fancyhdr} % Needed to define custom headers/footers
+% \pagestyle{fancy} % Enables the custom headers/footers
+
+% \renewcommand{\headrulewidth}{0.0pt} % No header rule
+% \renewcommand{\footrulewidth}{0.0pt} % No footer rule
+
+% \renewcommand{\sectionmark}[1]{\markboth{#1}{}} % Removes the section number from the header when \leftmark is used
+
+
+% % Headers
+% \lhead{} % Left header
+% \chead{}
+% \rhead{} % Right header
+
+% % Footers
+% \lfoot{} % Left footer
+% \cfoot{\footnotesize{\thepage}} % Center footer
+% \rfoot{} 
+
+% \fancypagestyle{firstpage}{ % Page style for the first page with the title
+% 	\fancyhf{}
+% 	\renewcommand{\footrulewidth}{0pt} % Suppress footer rule
+% }
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+% \usepackage{etoolbox}
+
+% \makeatletter
+% \patchcmd{\@maketitle}{\raggedright}{\centering}{}{}
+% \patchcmd{\@maketitle}{\raggedright}{\centering}{}{}
+% \makeatother
+
+% \newcommand{\authorstyle}[1]{{\normalsize\usefont{OT1}{phv}{b}{n}\color{Black}#1}} % Authors style (Helvetica)
+
+% \newcommand{\institution}[1]{{\scriptsize\usefont{OT1}{phv}{m}{n}\color{Black}#1}} % Institutions style (Helvetica)
+
+% \usepackage{titling} % Allows custom title configuration
+
+% \newcommand{\HorRule}{\color{DarkBlue}\rule{\linewidth}{1pt}} % Defines the gold horizontal rule around the title
+
+% \pretitle{
+% 	\vspace{-65pt} % Move the entire title section up
+% 	\noindent\HorRule\vspace{5pt} % Horizontal rule before the title
+% 	\fontsize{16}{22}\usefont{OT1}{phv}{b}{n}\selectfont % Helvetica
+% 	\color{DarkBlue} % Text colour for the title and author(s)
+% }
+
+% \posttitle{\par\vskip 5pt} % Whitespace under the title
+
+% \preauthor{\vspace{0pt}} % Anything that will appear before \author is printed
+
+% \postauthor{ % Anything that will appear after \author is printed
+% 	\vspace{0pt} % Space before the rule
+% 	\par\noindent\HorRule % Horizontal rule after the title
+% 	\vspace{-65pt} % Space after the title section
+% }
+
+%----------------------------------------------------------------------------------------
+%	Comments
+%----------------------------------------------------------------------------------------
+
+\newcommand{\JDH}{\textcolor{DarkGreen}}
+\newcommand{\AG}{\textcolor{red}}
+\newcommand{\ATB}{\textcolor{orange}}
+\newcommand{\MCS}{\textcolor{DarkBlue}}
+\newcommand{\CB}{\textcolor{cyan}}
+\newcommand{\DW}{\textcolor{Gold}}
+\newcommand{\refneeded}{\textcolor{red}{references}}
+
+\usepackage[switch]{lineno} % Column numbers
+%\linenumbers
+
+\mathchardef\mhyphen="2D
+
+% macros
+
+% \newcommand\aap{\textit{A\&A}}                % Astronomy and Astrophysics
+% \let\astap=\aap                          % alternative shortcut
+% \newcommand\aapr{\textit{A\&ARv}}      
+% \newcommand\aaps{\textit{A\&AS}}    
+% \newcommand\actaa{\textit{Acta Astron.}}    % Acta Astronomica
+% \newcommand\afz{\textit{Afz}}              % Astrofizika
+% \newcommand\aj{\textit{AJ}}                 % Astronomical Journal (the)
+% \newcommand\ao{\textit{Appl. Opt.}}          % Applied Optics
+% \let\applopt=\ao                         % alternative shortcut
+% \newcommand\aplett{\textit{Astrophys.~Lett.}} % Astrophysics Letters
+% \newcommand\apj{\textit{ApJ}}                % Astrophysical Journal
+% \newcommand\apjl{\textit{ApJ}}                % Astrophysical Journal, Letters
+% \let\apjlett=\apjl                       % alternative shortcut
+% \newcommand\apjs{\textit{ApJS}}            % Astrophysical Journal, Supplement
+% \let\apjsupp=\apjs                       
+% \newcommand\apss{\textit{Ap\&SS}}           % Astrophysics and Space Science
+% \newcommand\araa{\textit{ARA\&A}}           
+% \newcommand\arep{\textit{Astron. Rep.}}     % Astronomy Reports
+% \newcommand\aspc{\textit{ASP Conf. Ser.}}  % ASP Conference Series
+% \newcommand\azh{\textit{Azh}}              % Astronomicheskii Zhurnal
+% \newcommand\baas{\textit{BAAS}}           
+% \newcommand\bac{\textit{Bull. Astron. Inst. Czechoslovakia}} 
+% \newcommand\bain{\textit{Bull. Astron. Inst. Netherlands}} 
+% \newcommand\caa{\textit{Chinese Astron. Astrophys.}} 
+% \newcommand\cjaa{\textit{Chinese J.~Astron. Astrophys.}} 
+% \newcommand\fcp{\textit{Fundamentals Cosmic Phys.}} 
+% \newcommand\gca{\textit{Geochimica Cosmochimica Acta}}
+% \newcommand\grl{\textit{Geophys. Res. Lett.}}% Geophysics Research Letters
+% \newcommand\iaucirc{\textit{IAU~Circ.}}   % IAU Cirulars
+% \newcommand\icarus{\textit{Icarus}}          % Icarus
+% \newcommand\japa{\textit{J.~Astrophys. Astron.}}
+% \newcommand\jcap{\textit{J.~Cosmology Astropart. Phys.}}
+% \newcommand\jcp{\textit{J.~Chem.~Phys.}}    % Journal of Chemical Physics
+% \newcommand\jgr{\textit{J.~Geophys.~Res.}}   % Journal of Geophysics Research
+% \newcommand\jqsrt{\textit{J.~Quant. Spectrosc. Radiative Transfer}} 
+% \newcommand\jrasc{\textit{J.~R.~Astron. Soc. Canada}} 
+% \newcommand\memras{\textit{Mem.~RAS}}     % Memoirs of the RAS
+% \newcommand\memsai{\textit{Mem. Soc. Astron. Italiana}} 
+% \newcommand\mnassa{\textit{MNASSA}}  
+% \newcommand\mnras{\textit{MNRAS}}  
+% \newcommand\na{\textit{New~Astron.}}     % New Astronomy
+% \newcommand\nar{\textit{New~Astron.~Rev.}}   % New Astronomy Review
+% \newcommand\nat{\textit{Nature}}           % Nature
+% \newcommand\nphysa{\textit{Nuclear Phys.~A}} % Nuclear Physics A
+% \newcommand\pra{\textit{Phys. Rev.~A}} 
+% \newcommand\prb{\textit{Phys. Rev.~B}}       % Physical Review B: Solid State
+% \newcommand\prc{\textit{Phys. Rev.~C}}      % Physical Review C
+% \newcommand\prd{\textit{Phys. Rev.~D}}      % Physical Review D
+% \newcommand\pre{\textit{Phys. Rev.~E}}      % Physical Review E
+% \newcommand\prl{\textit{Phys. Rev.~Lett.}}    % Physical Review Letters
+% \newcommand\pasa{\textit{Publ. Astron. Soc. Australia}}
+% \newcommand\pasp{\textit{PASP}}   
+% \newcommand\pasj{\textit{PASJ}}  
+% \newcommand\physrep{\textit{Phys.~Rep.}}    % Physics Reports
+% \newcommand\physscr{\textit{Phys.~Scr.}}      % Physica Scripta
+% \newcommand\planss{\textit{Planet. Space~Sci.}} % Planetary Space Science
+% \newcommand\procspie{\textit{Proc.~SPIE}} 
+% \newcommand\rmxaa{\textit{Rev. Mex. Astron. Astrofis.}} 
+% \newcommand\qjras{\textit{QJRAS}}          % Quarterly Journal of the RAS
+% \newcommand\sci{\textit{Science}}            % Science
+% \newcommand\skytel{\textit{Sky \& Telesc.}}  % Sky and Telescope
+% \newcommand\solphys{\textit{Sol.~Phys.}}    % Solar Physics
+% \newcommand\sovast{\textit{Soviet~Ast.}}   
+% \newcommand\ssr{\textit{Space Sci. Rev.}}   % Space Science Reviews
+% \newcommand\zap{\textit{Z.~Astrophys.}}   % Zeitschrift fuer Astrophysik
+\newcommand{\gt}{$>$}
+
+%\newcommand{\lsun}{\mbox{L$_\odot$}\xspace}
+\newcommand{\lsun}{\ensuremath{\mathrm{L}_\odot}\xspace}
+\newcommand{\msun}{\mbox{M$_\odot$}\xspace}
+\newcommand{\msunyr}{\mbox{M$_\odot$yr$^{-1}$}}
+\newcommand{\msunpc}{\mbox{M$_\odot$pc$^{-2}$}}
+\newcommand{\msunkpc}{\mbox{M$_\odot$kpc$^{-2}$}}
+\newcommand{\msunyrpc}{\mbox{M$_\odot$yr$^{-1}$pc$^{-2}$}}
+\newcommand{\msunyrkpc}{\mbox{M$_\odot$yr$^{-1}$kpc$^{-2}$}}
+\newcommand{\zsun}{\mbox{Z$_\odot$}}
+\newcommand{\yr}{\mbox{${\rm yr}$}}
+
+\newcommand{\ergs}{\mbox{${\rm erg}~{\rm s}^{-1}$}}
+\newcommand{\myr}{\mbox{${\rm Myr}$}}
+\newcommand{\gyr}{\mbox{${\rm Gyr}$}}
+\newcommand{\pc}{\mbox{${\rm pc}$}}
+\newcommand{\mpc}{\mbox{${\rm Mpc}$}}
+\newcommand{\kpc}{\mbox{${\rm kpc}$}}
+\newcommand{\kms}{\mbox{${\rm km}~{\rm s}^{-1}$}\xspace}
+\newcommand{\cmc}{\mbox{${\rm cm}^{-3}$}}
+\newcommand{\dex}{\mbox{${\rm dex}$}}
+% \newcommand{\micron}{\mbox{${\rm \upmu\,m}$}}
+\newcommand{\sfr}{{\rm SFR}}
+\newcommand{\mgas}{M_{\rm gas}}
+\newcommand{\hi}{H{\sc i}\xspace}
+\newcommand{\hii}{H{\sc ii}\xspace}
+\newcommand{\uchii}{UCH{\sc ii}\xspace}
+\newcommand{\halpha}{H$\alpha$\xspace}
+\newcommand{\co}{\mbox{CO(1-0)}\xspace}
+\newcommand{\code}{{\sc Code}\xspace}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand*\Bell{\ensuremath{\boldsymbol\ell}}
+\newcommand{\ppv}{\mbox{$p$-$p$-$v$}}
+\newcommand{\farc}{\overset{\prime\prime}{.}}
+%\newcommand{\fdg}{\overset{^\circ}{.}}
+\newcommand{\ammonia}{\ensuremath{\mathrm{NH}_3}\xpsace}
+\newcommand{\degree}{\ensuremath{^{\circ}}\xspace}
+\renewcommand{\deg}{\degree}
+% \newcommand{\arcsec}{{\rm ^{\prime\prime}}}
+% \newcommand{\arcmin}{{\rm ^\prime}}
+%\newcommand{\dens}{\ensuremath{n(\hh) [\percc]}\xspace}
+\newcommand{\percc}{\ensuremath{\textrm{cm}^{-3}}\xspace}
+\newcommand{\persc}{\ensuremath{\textrm{cm}^{-2}}\xspace}
+\newcommand{\peryr}{\mbox{${\rm yr^{-1}}$}}
+\newcommand{\um}{\,\textmu m\xspace}
+
+
+\newcommand{\detailtexcount}[1]{%
+  \immediate\write18{texcount -merge -sum -q #1.tex output.bbl > #1.wcdetail }%
+  \verbatiminput{#1.wcdetail}%
+}
+
+\newcommand{\quickwordcount}[1]{%
+  \immediate\write18{texcount -1 -sum -merge -q #1.tex output.bbl > #1-words.sum }%
+  \input{#1-words.sum} words%
+}
+
+\newcommand{\quickcharcount}[1]{%
+  \immediate\write18{texcount -1 -sum -merge -char -q #1.tex output.bbl > #1-chars.sum }%
+  \input{#1-chars.sum} characters (not including spaces)%
+}
+
+
