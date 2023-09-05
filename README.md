@@ -15,7 +15,7 @@ To suggest changes, additions, or improvements to the review, you may open or co
 
 ## Next review period
 
-At present, the original article authors have agreed to serve as editors of this living review, reviewing and implementing suggested changes bi-annually, with the next review to occur after the PPVII meeting, in June 2023. Please help to keep this living review up-to-date by suggesting changes or additions based on new work from your group. 
+At present, the original article authors have agreed to serve as editors of this living review, reviewing and implementing suggested changes bi-annually, with the next review to occur in December 2023. Please help to keep this living review up-to-date by suggesting changes or additions based on new work from your group. 
 
 ## Thank you!
 
